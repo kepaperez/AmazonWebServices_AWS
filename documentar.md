@@ -105,3 +105,14 @@ Después haremos click sobre la estancia y daremos click en conectar
 ![Texto alternativo](/img/37.PNG)
 ![Texto alternativo](/img/38.PNG)
 ![Texto alternativo](/img/39.PNG)
+
+### Paso 5: Instalar FTP
+
+![Texto alternativo](/img/40.PNG)
+![Texto alternativo](/img/41.PNG)
+![Texto alternativo](/img/42.PNG)
+![Texto alternativo](/img/43.PNG)
+![Texto alternativo](/img/44.PNG)
+![Texto alternativo](/img/45.PNG)
+![Texto alternativo](/img/46.PNG)
+![Texto alternativo](/img/47.PNG)
