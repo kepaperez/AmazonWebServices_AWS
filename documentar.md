@@ -154,7 +154,7 @@ Después haremos click sobre la estancia y daremos click en conectar
 - En la actualidad existen un total de 13 servidores raíz DNS, y están nombrados por letras de la “A” a la “M”. Estos servidores, tienen una dirección IPv4 y una dirección IPv6.
 
 -¿Cuántas redirecciones DNS son posibles?
-
+- TLD y Root Server
 
 -¿Qué son los servidores DNS Raíz?
 - El directorio raíz de un dominio es la carpeta a la que apunta el dominio, que contiene los ficheros y carpetas de la web que carga dicho dominio. En cpanel, el dominio principal apunta a la carpeta public_html de tu cuenta. Si quieres puedes apuntar el dominio principal a otra carpeta
@@ -163,9 +163,17 @@ Después haremos click sobre la estancia y daremos click en conectar
 
 -¿Para qué montar un servidor si simplemente escribiendo en un fichero la relación IP/Nombre el sistema ya funcionaría?
 
-
+- Cada equipo conectado directamente a Internet tiene al menos una dirección IP específica. Sin embargo, los usuarios no desean trabajar con direcciones numéricas
 
 -Según lo expuesto, y si en tu configuración de red del sistema operativo solamente posees un servidor DNS, entonces: ¿cuál sería el proceso para encontrar la IP de la dirección web: http://www.debian.org/distrib/netinst?
+- Nuestro equipo verá que no conoce la IP a la que debe conectarse, así que preguntará a un servidor DNS que tenga configurado.
+- A este servidor DNS le llegará una petición: “Oye, ¿a qué IP resuelve el dominio miweb.es?”.  Pero tampoco conoce la respuesta, así que pregunta a uno de sus propios servidores DNS.
+- Esto puede ocurrir varias veces hasta que al final la pregunta llega a un Root Server.
+- El Root Server contestará “Yo no sé a qué IP resuelve miweb.es, pero puedo decirte qué servidor DNS lo sabe.” Entonces dirigirá la consulta a un servidor DNS del dominio padre, o TLD.
+- El servidor del dominio padre de nuevo contestará la consulta, indicando cuáles son los servidores DNS autoritativos para el dominio.
+- La petición llega a estos dos servidores DNS, es contestada.
+- Por último, tu ordenador ya tiene su respuesta y ya sabe a qué IP resuelve el dominio. Hace una conexión a ella, pide la página web y te la enseña.
+
 
 
 
