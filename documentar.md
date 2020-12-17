@@ -116,3 +116,62 @@ Después haremos click sobre la estancia y daremos click en conectar
 ![Texto alternativo](/img/45.PNG)
 ![Texto alternativo](/img/46.PNG)
 ![Texto alternativo](/img/47.PNG)
+
+
+
+### Paso 6: IP Elastica
+
+
+![Texto alternativo](/img/48.PNG)
+![Texto alternativo](/img/49.PNG)
+![Texto alternativo](/img/50.PNG)
+![Texto alternativo](/img/51.PNG)
+
+
+### Paso 7: DNS
+
+-¿Qué es y para qué sirve el DNS?
+
+ - El DNS es un conjunto de protocolos y servicios que permite a los usuarios utilizar nombres en vez de tener que recordar direcciones IP numéricas.
+
+-Indica cuales son y para qué se usan los diferentes tipos de registros DNS.
+- A = Dirección (address). Este registro se usa para traducir nombres de servidores de alojamiento a direcciones IPv4.
+
+- AAAA = Dirección (address). Este registro se usa en IPv6 para traducir nombres de hosts a direcciones IPv6.
+
+- CNAME = Nombre canónico (canonical Name). Se usa para crear nombres de servidores de alojamiento adicionales, o alias, para los servidores de alojamiento de un dominio. Es usado cuando se están corriendo múltiples servicios (como FTP y servidor web) en un servidor con una sola dirección IP. Cada servicio tiene su propia entrada de DNS (como ftp.ejemplo.com. y www.ejemplo.com.). Esto también es usado cuando corres múltiples servidores HTTP, con diferentes nombres, sobre el mismo host. Se escribe primero el alias y luego el nombre real. Ej. Ejemplo1 IN CNAME ejemplo2
+
+- SRV = Service record (SRV record).
+
+- TXT = Un registro TXT es un tipo de registro DNS que proporciona información de texto a fuentes externas a tu dominio.El texto puede ser lenguaje legible por máquina o por el ser humano, y se puede utilizar para diversos fines.
+
+-Imagen de los registros DNS de tu sitio en Guebs y explicación de los registros de tu dominio grupoX.zerbitzaria.net.
+- ![Texto alternativo](/img/52.PNG)
+
+### Paso 7: DNS 2
+
+-¿Cuántos servidores DNS existen?
+- En la actualidad existen un total de 13 servidores raíz DNS, y están nombrados por letras de la “A” a la “M”. Estos servidores, tienen una dirección IPv4 y una dirección IPv6.
+
+-¿Cuántas redirecciones DNS son posibles?
+
+
+-¿Qué son los servidores DNS Raíz?
+- El directorio raíz de un dominio es la carpeta a la que apunta el dominio, que contiene los ficheros y carpetas de la web que carga dicho dominio. En cpanel, el dominio principal apunta a la carpeta public_html de tu cuenta. Si quieres puedes apuntar el dominio principal a otra carpeta
+
+
+
+-¿Para qué montar un servidor si simplemente escribiendo en un fichero la relación IP/Nombre el sistema ya funcionaría?
+
+
+
+-Según lo expuesto, y si en tu configuración de red del sistema operativo solamente posees un servidor DNS, entonces: ¿cuál sería el proceso para encontrar la IP de la dirección web: http://www.debian.org/distrib/netinst?
+
+
+
+-¿Es posible si dispones de una conexión a Internet con IP dinámica ofrecer servicios en Internet? Es decir, si quieres ofrecer los servicios SND, no dispones de IP estática, esto es, cada vez que te conectas a Internet tu IP, aunque a veces sea la misma, no siempre es la misma. 
+
+
+
+-¿Qué es ICANN?
+- La comunidad mundial de Internet se empeña en la promoción de la estabilidad e integridad de Internet.
