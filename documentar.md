@@ -150,22 +150,22 @@ Después haremos click sobre la estancia y daremos click en conectar
 
 ### Paso 7: DNS 2
 
--¿Cuántos servidores DNS existen?
+### -¿Cuántos servidores DNS existen?
 - En la actualidad existen un total de 13 servidores raíz DNS, y están nombrados por letras de la “A” a la “M”. Estos servidores, tienen una dirección IPv4 y una dirección IPv6.
 
--¿Cuántas redirecciones DNS son posibles?
+### -¿Cuántas redirecciones DNS son posibles?
 - TLD y Root Server
 
--¿Qué son los servidores DNS Raíz?
+### -¿Qué son los servidores DNS Raíz?
 - El directorio raíz de un dominio es la carpeta a la que apunta el dominio, que contiene los ficheros y carpetas de la web que carga dicho dominio. En cpanel, el dominio principal apunta a la carpeta public_html de tu cuenta. Si quieres puedes apuntar el dominio principal a otra carpeta
 
 
 
--¿Para qué montar un servidor si simplemente escribiendo en un fichero la relación IP/Nombre el sistema ya funcionaría?
+### -¿Para qué montar un servidor si simplemente escribiendo en un fichero la relación IP/Nombre el sistema ya funcionaría?
 
 - Cada equipo conectado directamente a Internet tiene al menos una dirección IP específica. Sin embargo, los usuarios no desean trabajar con direcciones numéricas
 
--Según lo expuesto, y si en tu configuración de red del sistema operativo solamente posees un servidor DNS, entonces: ¿cuál sería el proceso para encontrar la IP de la dirección web: http://www.debian.org/distrib/netinst?
+### -Según lo expuesto, y si en tu configuración de red del sistema operativo solamente posees un servidor DNS, entonces: ¿cuál sería el proceso para encontrar la IP de la dirección web: http://www.debian.org/distrib/netinst?
 - Nuestro equipo verá que no conoce la IP a la que debe conectarse, así que preguntará a un servidor DNS que tenga configurado.
 - A este servidor DNS le llegará una petición: “Oye, ¿a qué IP resuelve el dominio miweb.es?”.  Pero tampoco conoce la respuesta, así que pregunta a uno de sus propios servidores DNS.
 - Esto puede ocurrir varias veces hasta que al final la pregunta llega a un Root Server.
@@ -177,9 +177,9 @@ Después haremos click sobre la estancia y daremos click en conectar
 
 
 
--¿Es posible si dispones de una conexión a Internet con IP dinámica ofrecer servicios en Internet? Es decir, si quieres ofrecer los servicios SND, no dispones de IP estática, esto es, cada vez que te conectas a Internet tu IP, aunque a veces sea la misma, no siempre es la misma. 
+### -¿Es posible si dispones de una conexión a Internet con IP dinámica ofrecer servicios en Internet? Es decir, si quieres ofrecer los servicios SND, no dispones de IP estática, esto es, cada vez que te conectas a Internet tu IP, aunque a veces sea la misma, no siempre es la misma. 
 
 
 
--¿Qué es ICANN?
+#### -¿Qué es ICANN?
 - La comunidad mundial de Internet se empeña en la promoción de la estabilidad e integridad de Internet.
